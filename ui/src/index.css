@@ -1,0 +1,62 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+    visibility: hidden; /* DO NOT CHANGE, IMPORTANT!*/
+}
+
+.tabsButtons{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.contentBox{
+    padding:8px 12px;
+    border-radius:4px;
+    border:1px solid #383838;
+}
+
+.discountBox{
+    padding:8px 12px;
+    border-radius:4px;
+    border:1px solid #383838;
+    position: relative;
+    height: 60px;
+    width: 100%;
+}
+
+.discountOffer{
+    position: absolute;
+    left:0;
+    top:0%;
+    width:20px;
+    height: 100%;
+    background: rgb(153, 3, 3);
+    color:#fff;
+    writing-mode: vertical-lr;
+    font-size:10px;
+}
+.discountInfo{
+    padding:12px;
+}
+
+.vehicleBox{
+    padding:8px 12px;
+    border-radius:4px;
+    border:1px solid #383838;
+    position: relative;
+    height: 60px;
+    width: 100%;
+}
+
+.wrapper{
+    display: flex;
+    gap:16px;
+    flex-wrap: wrap;
+}
+
+.price{
+    font-size:12px;
+}

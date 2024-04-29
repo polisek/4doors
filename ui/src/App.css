@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size:14px;
+}
+
+.app {
+    height: 100vh;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    background-color: var(--background-primary);
+
+    font-family: 'Poppins', sans-serif;
+}
+
+.app-wrapper {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.header,
+.button-wrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 0.2rem;
+}
+
+.button-wrapper {
+    gap: 1rem;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: 700;
+
+    color: var(--text-primary);
+}
+
+.title span{
+    font-size: 20px;
+    color:rgb(166, 0, 0);
+}
+
+.subtitle {
+    font-size: 16px;
+    font-weight: 400;
+
+    color: var(--text-secondary);
+}
+
+
+input {
+    width: 14rem;
+    height: 3.25rem;
+
+    background-color: var(--background-highlight);
+    color: var(--text-primary);
+
+    border: none;
+    border-radius: 7px;
+
+    padding: 0 1rem;
+
+    font-size: 12px;
+    font-weight: 600;
+
+    transition: all 0.25s ease-in-out;
+
+    outline: none;
+}
+
+/* Do not edit, this allows you to view changes easily in your browser */
+.dev-wrapper {
+    position: absolute;
+
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+
+    width: 29rem;
+    height: 58.5rem;
+}
+
+.tabContent{
+    color:#fff;
+}
+
+.btn{
+    background: #2e2e2e;
+    border:none;
+    padding:8px 12px;
+    color:#fff;
+    border:1px solid #383838;
+    transition: 0.3s;
+    border-radius:4px;
+    margin:0 auto;
+    display: block;
+}
+
+.btn:hover{
+    background: #171717;
+    cursor: pointer;
+}
+button{
+    padding:8px 12px;
+    border-radius:4px;
+    width: fit-content;
+}
